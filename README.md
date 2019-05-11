@@ -6,6 +6,6 @@ and outside the main you have to write #include "big_galois_lib.c" (just to inlu
 to call the functions you want). Then you can compute, for example, multiplication in finite field GF(2^l) between b and c 
 (both written as arrays of bools), just writing in your main: 
 
-bool *a; 
+bool * a; 
 a=malloc(l*sizeof(bool));
 a=big_galois_mul(b,c, l, poly_irr[l]);
