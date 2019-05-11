@@ -1,6 +1,8 @@
 FILE *file3;
 	file3 = fopen("polinomi_irriducibili.txt", "r");
-	
+	int i;
+	int j;
+	int l;
 	bool **poly_irr;
 	
 	poly_irr=(bool**)malloc(100*sizeof(bool*));
