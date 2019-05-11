@@ -7,5 +7,5 @@ to call the functions you want). Then you can compute, for example, multiplicati
 (both written as arrays of bools), just writing in your main: 
 
 bool * a; \
-a = malloc(l * sizeof(bool));
+a = malloc(l * sizeof(bool));\
 a = big_galois_mul(b,c, l, poly_irr[l]);
